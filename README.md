@@ -36,11 +36,15 @@
 
 <a href=#100days>![#100DaysOfCode](Assets/inter-100hash.png)</a>
 
-### Day 31: **_Date_**
+### Day 31: November 29, 2021
 
--   text
--   text
--   text
+-   I am learning about the <a href="https://agilemanifesto.org/">Agile Manifesto</a>, which is a set of values and principles.
+
+-   The Agile Manifesto is used to guide teams in the decision-making of software development, and Agile methodologies are popular in project management.
+
+-   As a personal study guide, I created flip cards of the 4 values and 12 principles of the Agile Manifesto.
+
+-   The graphics and material are from <a href="https://www.scrumalliance.org/agile-organizations/manifesto">Scrum Alliance</a> and <a href="https://selleo.com/blog/agile-values-and-principles-do-they-still-matter">Selleo</a>, with formatting done with Adobe Photoshop.
 
 #
 
@@ -66,7 +70,9 @@ open index.html
 
 <a href="https://agile-101.vercel.app/">![Live Site](Assets/inter-live-site.png)</a>
 
-<a href="https://agile-101.vercel.app/">![Live Site](Assets/***project-number***-***gif-name***.gif)</a>
+<a href="https://agile-101.vercel.app/">![Live Site](Assets/031-agile.gif)</a>
+
+Flip cards explain the 4 values and 12 principles of the Agile Manifesto.
 
 #
 
@@ -74,13 +80,20 @@ open index.html
 
 <a href=#resources>![Resources](Assets/inter-resources.png)</a>
 
--   #### [**_alt-text_**](***URL***)
+-   #### [Creating a Card Flip by Dong Xia](https://dong-xia.medium.com/creating-a-card-flip-i-challenge-you-to-a-duel-4e4e124c5060)
 
--   #### [**_alt-text_**](***URL***)
+-   #### [How TO - Flip Card](https://www.w3schools.com/howto/howto_css_flip_card.asp)
 
--   #### [**_alt-text_**](***URL***)
+-   #### [Adobe Photoshop](https://www.adobe.com/products/photoshop/free-trial-download.html)
+-   #### [The Agile Manifesto](http://agilemanifesto.org/)
 
--   #### [**_alt-text_**](***URL***)
+-   #### [Video: What is Agile?](https://www.youtube.com/watch?v=Z9QbYZh1YXY)
+
+-   #### [Agile Manifesto Graphics](https://www.scrumalliance.org/agile-organizations/manifesto)
+
+-   #### [What is the Agile Manifesto?](https://airfocus.com/glossary/what-is-agile-manifesto/)
+
+-   #### [Agile Values And Principles - Do They Still Matter?](https://selleo.com/blog/agile-values-and-principles-do-they-still-matter)
 
 -   #### [My blog on how I created my Github READMEs](https://emmanueljose.medium.com/readme-a-makeover-story-b9c7be37a6de?sk=7ae6623d365409d875753e4604e42ffd)
 

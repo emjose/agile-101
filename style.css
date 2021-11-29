@@ -186,10 +186,6 @@ p {
 	font-size: 1.75em;
 }
 
-/* header .github-corner svg {
-	display: none;
-} */
-
 @media (max-width: 1140px) {
 	#expand {
 		font-size: 1.5em;
