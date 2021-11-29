@@ -1,0 +1,238 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-family: darkmode-on, sans-serif;
+	font-weight: 900;
+	font-style: normal;
+	color: #333;
+	line-height: 1.5;
+	height: 100vh;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	background: linear-gradient(to top left, #eef8fc, #ffffff);
+	background-attachment: fixed;
+}
+
+.title {
+	text-align: center;
+}
+
+header {
+	position: fixed;
+	top: 0;
+	padding: 10px;
+	height: 120px;
+	width: 100%;
+	color: #009fe2;
+	background-color: #e1f4ff;
+	z-index: 10;
+	box-shadow: 4px 4px 16px #b9cada;
+	overflow: hidden;
+	transition: all 0.3s ease-in-out;
+}
+
+header:hover {
+	height: 220px;
+	background-color: rgb(255, 239, 221);
+}
+
+header:hover h1 {
+	color: #0182b9;
+}
+
+#expand {
+	margin-top: 10px;
+}
+
+#scrum {
+	color: #009fe2;
+	transition: all 0.4s ease-in-out;
+}
+
+#scrum:hover {
+	color: rgb(88, 79, 68);
+	text-decoration: underline;
+}
+
+h2,
+h4 {
+	padding: 4px;
+	text-align: center;
+}
+
+h4 {
+	font-size: 1.75em;
+	font-weight: 500;
+	color: rgba(0, 0, 0, 0.37);
+}
+
+h2 {
+	font-size: 2em;
+	color: rgba(0, 0, 0, 0.466);
+}
+
+header a {
+	text-decoration: none;
+	color: inherit;
+}
+
+header h1 {
+	margin-top: -15px;
+	font-family: "DM Serif Display", serif;
+	font-weight: 900;
+	font-style: normal;
+	font-size: 8rem;
+}
+
+p {
+	font-size: 1.5em;
+}
+
+.card-container {
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 30px;
+	width: 90%;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	place-content: center;
+	margin-top: 180px;
+	padding-bottom: 60px;
+}
+
+.card {
+	width: 302px;
+	height: 394px;
+	margin: 10px;
+	position: relative;
+	transform-style: preserve-3d;
+	transition: transform 0.3s;
+	border-radius: 2rem;
+}
+
+.card:hover {
+	transform: rotateY(180deg);
+	transition: transform 0.3s ease 0.3s;
+}
+
+.front,
+.back {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	backface-visibility: hidden;
+	border-radius: 2rem;
+	box-shadow: 4px 4px 16px #a9c0d4;
+	outline: 4px double #a9c0d46b;
+	outline-offset: -12px;
+}
+
+.front {
+	padding: 20px;
+	background-color: white;
+	transform: rotateY(180deg);
+}
+
+#card-title {
+	margin-top: 5px;
+	color: #0076a8a8;
+	font-weight: 600;
+	font-size: 2.35em;
+	text-align: center;
+	padding-bottom: 15px;
+}
+
+#card-subtitle {
+	font-size: 1.9em;
+	font-weight: 600;
+	padding-bottom: 25px;
+	text-align: center;
+	color: rgba(0, 0, 0, 0.699);
+}
+
+#second-subtitle,
+#second-subtitle-small {
+	color: rgba(0, 0, 0, 0.562);
+	text-align: center;
+}
+
+#second-subtitle-small {
+	font-size: 0.8em;
+	font-weight: 400;
+}
+
+#card-content,
+#card-content-principle {
+	color: rgb(114, 114, 114);
+	font-weight: 500;
+	line-height: 1.75;
+	font-size: 1.65em;
+	text-align: center;
+}
+
+#card-content-principle {
+	padding-top: 50px;
+	font-size: 1.75em;
+}
+
+/* header .github-corner svg {
+	display: none;
+} */
+
+@media (max-width: 1140px) {
+	#expand {
+		font-size: 1.5em;
+	}
+}
+
+@media (max-width: 750px) {
+	#description {
+		font-size: 1.65em;
+	}
+	#expand {
+		font-size: 1.2em;
+	}
+}
+
+@media (max-width: 685px) {
+	header {
+		height: 90px !important;
+	}
+
+	header h1 {
+		font-size: 6em;
+		user-select: none !important;
+	}
+
+	header:hover {
+		background-color: #e1f4ff !important;
+		pointer-events: none !important;
+	}
+
+	header:hover h1 {
+		color: #009fe2 !important;
+		pointer-events: none !important;
+	}
+
+	#description,
+	#expand,
+	.github-corner {
+		display: none !important;
+		user-select: none !important;
+	}
+
+	.card-container {
+		margin-top: 125px;
+	}
+}
