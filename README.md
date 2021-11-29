@@ -15,7 +15,7 @@
 
 <br>
 
-<a href="deployment url">![Agile 101](Assets/preview-031-agile-101.png)</a>
+<a href="https://agile-101.vercel.app/">![Agile 101](Assets/preview-031-agile-101.png)</a>
 
 #
 
@@ -64,9 +64,9 @@ open index.html
 
 <p id="live-site"><p>
 
-<a href="url">![Live Site](Assets/inter-live-site.png)</a>
+<a href="https://agile-101.vercel.app/">![Live Site](Assets/inter-live-site.png)</a>
 
-<a href="url">![Live Site](Assets/***project-number***-***gif-name***.gif)</a>
+<a href="https://agile-101.vercel.app/">![Live Site](Assets/***project-number***-***gif-name***.gif)</a>
 
 #
 
