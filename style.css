@@ -43,15 +43,13 @@ header {
 }
 
 header:hover,
-header:focus,
-header:active {
+header:focus {
 	height: 220px;
 	background-color: rgb(255, 239, 221);
 }
 
 header:hover h1,
-header:focus h1,
-header:active h1 {
+header:focus h1 {
 	color: #0182b9;
 }
 
@@ -65,8 +63,7 @@ header:active h1 {
 }
 
 #scrum:hover,
-#scrum:focus,
-#scrum:active {
+#scrum:focus {
 	color: rgb(88, 79, 68);
 	text-decoration: underline;
 }
@@ -128,8 +125,7 @@ p {
 }
 
 .card:hover,
-.card:focus,
-.card:active {
+.card:focus {
 	transform: rotateY(180deg);
 	transition: transform 0.3s ease 0.3s;
 }
@@ -240,15 +236,13 @@ p {
 	}
 
 	header:hover,
-	header:focus,
-	header:active {
+	header:focus {
 		background-color: #e1f4ff !important;
 		pointer-events: none !important;
 	}
 
 	header:hover h1,
-	header:focus h1,
-	header:active h1 {
+	header:focus h1 {
 		color: #009fe2 !important;
 		pointer-events: none !important;
 	}
