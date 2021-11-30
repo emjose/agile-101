@@ -26,6 +26,7 @@
 -   [100 Days of Code](#100days)
 -   [Installation](#installation)
 -   [Live Site](#live-site)
+-   [Issues](#issues)
 -   [Resources](#resources)
 -   [Copyright](#copyright)
 -   [Let's Connect!](#lets-connect)
@@ -73,6 +74,32 @@ open index.html
 <a href="https://agile-101.vercel.app/">![Live Site](Assets/031-agile.gif)</a>
 
 Flip cards explain the 4 values and 12 principles of the Agile Manifesto.
+
+#
+
+<p id="issues"><p>
+
+<a href="https://agile-101.vercel.app/">![Issues](Assets/inter-issues.png)</a>
+
+-   After deploying Agile 101 on <a href="https://vercel.com">Vercel</a>, I discovered that the cards didn't flip correctly on a mobile phone.
+
+-   The primary issue is that <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/:hover">the `:hover` pseudo class is problematic on touchscreens</a>, since there are no cursor/mouse devices present.
+
+-   Two questions on Stack Overflow ( <a href="https://stackoverflow.com/questions/22559756/changing-hover-to-touch-click-for-mobile-devices">1</a> • <a href="https://stackoverflow.com/questions/19792575/css3-flip-functionality-problems-with-backface-visibility">2</a> ) led to the solutions of adding `:focus` to CSS properties and `tabindex="0"` to HTML elements.
+
+-   For browser compatibility, the <a href="https://developer.mozilla.org/en-US/docs/Glossary/Vendor_Prefix">vendor prefixes</a> (`-webkit-`, `-moz-`, `-ms-`, and `-o-`) were also added to the transform and backface-visibility CSS properties.
+
+-   The only remaining minor issue is that tapping on a card while viewing on a mobile device may yield a blue outline that does not entirely surround the card. However, cards now flip correctly on touchscreens.
+
+<a href="https://agile-101.vercel.app/">![Live Site](Assets/inter-agile-issue.gif)</a>
+
+• With `:focus` now in place, Agile 101 is now keyboard accessible.
+
+• Pressing the tab key (or a mouse click) can pause a selected card in its flipped state.
+
+• A tab press or mouse click **outside** of the card reverts the card back to its initial state.
+
+• A regular mouse hover will flip a card without having to click.
 
 #
 

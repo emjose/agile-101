@@ -122,6 +122,7 @@ p {
 	transform-style: preserve-3d;
 	-webkit-transform-style: preserve-3d;
 	-moz-transform-style: rotateY(180deg);
+	-ms-transform-style: rotateY(180deg);
 	-o-transform-style: rotateY(180deg);
 	transition: transform 0.3s;
 	border-radius: 2rem;
@@ -132,6 +133,7 @@ p {
 	transform: rotateY(180deg);
 	-webkit-transform: rotateY(180deg);
 	-moz-transform: rotateY(180deg);
+	-ms-transform: rotateY(180deg);
 	-o-transform: rotateY(180deg);
 	transition: transform 0.3s ease 0.3s;
 }
@@ -150,10 +152,12 @@ p {
 	outline: 4px double #a9c0d46b;
 	-webkit-outline: 4px double #a9c0d46b;
 	-moz-outline: 4px double #a9c0d46b;
+	-ms-outline: 4px double #a9c0d46b;
 	-o-outline: 4px double #a9c0d46b;
 	outline-offset: -12px;
 	-webkit-outline-offset: -12px;
 	-moz-outline-offset: -12px;
+	-ms-outline-offset: -12px;
 	-o-outline-offset: -12px;
 }
 
@@ -163,6 +167,7 @@ p {
 	transform: rotateY(180deg);
 	-webkit-transform: rotateY(180deg);
 	-moz-transform: rotateY(180deg);
+	-ms-transform: rotateY(180deg);
 	-o-transform: rotateY(180deg);
 }
 
