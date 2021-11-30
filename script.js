@@ -1,1 +1,1 @@
-document.addEventListener("touchstart", function () {}, false);
+document.addEventListener("touchstart", function () {}, true);
