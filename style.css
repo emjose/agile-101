@@ -42,14 +42,12 @@ header {
 	transition: all 0.3s ease-in-out;
 }
 
-header:hover,
-header:focus {
+header:hover {
 	height: 220px;
 	background-color: rgb(255, 239, 221);
 }
 
-header:hover h1,
-header:focus h1 {
+header:hover h1 {
 	color: #0182b9;
 }
 
@@ -62,8 +60,7 @@ header:focus h1 {
 	transition: all 0.4s ease-in-out;
 }
 
-#scrum:hover,
-#scrum:focus {
+#scrum:hover {
 	color: rgb(88, 79, 68);
 	text-decoration: underline;
 }
@@ -127,8 +124,7 @@ p {
 	border-radius: 2rem;
 }
 
-.card:hover,
-.card:focus {
+.card:hover {
 	transform: rotateY(180deg);
 	-webkit-transform: rotateY(180deg);
 	-moz-transform: rotateY(180deg);
@@ -202,9 +198,9 @@ p {
 	font-size: 1.75em;
 }
 
-:focus {
+/* :focus {
 	outline-color: #009fe2;
-}
+} */
 
 /* @media (hover: hover) and (pointer: fine) {
 	.card:hover {
@@ -247,14 +243,12 @@ p {
 		user-select: none !important;
 	}
 
-	header:hover,
-	header:focus {
+	header:hover {
 		background-color: #e1f4ff !important;
 		pointer-events: none !important;
 	}
 
-	header:hover h1,
-	header:focus h1 {
+	header:hover h1 {
 		color: #009fe2 !important;
 		pointer-events: none !important;
 	}
