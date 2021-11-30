@@ -85,21 +85,23 @@ Flip cards explain the 4 values and 12 principles of the Agile Manifesto.
 
 -   The primary issue is that <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/:hover">the `:hover` pseudo class is problematic on touchscreens</a>, since there are no cursor/mouse devices present.
 
--   Two questions on Stack Overflow ( <a href="https://stackoverflow.com/questions/22559756/changing-hover-to-touch-click-for-mobile-devices">1</a> • <a href="https://stackoverflow.com/questions/19792575/css3-flip-functionality-problems-with-backface-visibility">2</a> ) led to the solutions of adding `:focus` to CSS properties and `tabindex="0"` to HTML elements.
+-   Stack Overflow questions ( <a href="https://stackoverflow.com/questions/22559756/changing-hover-to-touch-click-for-mobile-devices">One</a> • <a href="https://stackoverflow.com/questions/19792575/css3-flip-functionality-problems-with-backface-visibility">Two</a> ) led to the solutions of adding `:focus` to CSS properties and `tabindex="0"` to HTML elements.
 
--   For browser compatibility, the <a href="https://developer.mozilla.org/en-US/docs/Glossary/Vendor_Prefix">vendor prefixes</a> (`-webkit-`, `-moz-`, `-ms-`, and `-o-`) were also added to the transform and backface-visibility CSS properties.
+-   The <a href="https://developer.mozilla.org/en-US/docs/Glossary/Vendor_Prefix">vendor prefixes</a> (`-webkit-`, `-moz-`, `-ms-`, `-o-`) were also added to the transform and backface-visibility CSS properties.
 
--   The only remaining minor issue is that tapping on a card while viewing on a mobile device may yield a blue outline that does not entirely surround the card. However, cards now flip correctly on touchscreens.
+-   A remaining issue with touchscreen devices: Tapping a card may yield a partial blue outline that doesn't correctly surround the card. However, cards will flip correctly when tapped.
 
 <a href="https://agile-101.vercel.app/">![Live Site](Assets/inter-agile-issue.gif)</a>
+
+• A regular mouse hover will still flip a card without clicking.
 
 • With `:focus` now in place, Agile 101 is now keyboard accessible.
 
 • Pressing the tab key (or a mouse click) can pause a selected card in its flipped state.
 
-• A tab press or mouse click **outside** of the card reverts the card back to its initial state.
+• A tab key press or a mouse click **outside** of the card reverts the card back to its initial state.
 
-• A regular mouse hover will flip a card without having to click.
+• On a touchscreen device: tapping another card will flip the previously selected card back to its initial state.
 
 #
 
