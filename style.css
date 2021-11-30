@@ -198,6 +198,22 @@ p {
 	outline-color: #009fe2;
 }
 
+@media (hover: hover) and (pointer: fine) {
+	.card:hover {
+		transform: rotateY(180deg);
+		transition: transform 0.3s ease 0.3s;
+	}
+
+	header:hover {
+		height: 220px;
+		background-color: rgb(255, 239, 221);
+	}
+
+	header:hover h1 {
+		color: #0182b9;
+	}
+}
+
 @media (max-width: 1140px) {
 	#expand {
 		font-size: 1.5em;
