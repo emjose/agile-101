@@ -121,6 +121,8 @@ p {
 	position: relative;
 	transform-style: preserve-3d;
 	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: rotateY(180deg);
+	-o-transform-style: rotateY(180deg);
 	transition: transform 0.3s;
 	border-radius: 2rem;
 }
@@ -128,6 +130,9 @@ p {
 .card:hover,
 .card:focus {
 	transform: rotateY(180deg);
+	-webkit-transform: rotateY(180deg);
+	-moz-transform: rotateY(180deg);
+	-o-transform: rotateY(180deg);
 	transition: transform 0.3s ease 0.3s;
 }
 
@@ -137,6 +142,9 @@ p {
 	height: 100%;
 	position: absolute;
 	backface-visibility: hidden;
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	-ms-backface-visibility: hidden;
 	border-radius: 2rem;
 	box-shadow: 4px 4px 16px #a9c0d4;
 	outline: 4px double #a9c0d46b;
@@ -147,6 +155,9 @@ p {
 	padding: 20px;
 	background-color: white;
 	transform: rotateY(180deg);
+	-webkit-transform: rotateY(180deg);
+	-moz-transform: rotateY(180deg);
+	-o-transform: rotateY(180deg);
 }
 
 #card-title {
@@ -195,7 +206,7 @@ p {
 	outline-color: #009fe2;
 }
 
-@media (hover: hover) and (pointer: fine) {
+/* @media (hover: hover) and (pointer: fine) {
 	.card:hover {
 		transform: rotateY(180deg);
 		transition: transform 0.3s ease 0.3s;
@@ -209,7 +220,7 @@ p {
 	header:hover h1 {
 		color: #0182b9;
 	}
-}
+} */
 
 @media (max-width: 1140px) {
 	#expand {
