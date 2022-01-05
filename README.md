@@ -91,8 +91,11 @@ Flip cards explain the 4 values and 12 principles of the Agile Manifesto.
 
 -   A remaining issue with touchscreen devices: Tapping a card may yield a partial blue outline that doesn't correctly surround the card. However, cards will flip correctly when tapped.
 
+<br>
+
 <a href="https://agile-101.vercel.app/">![Live Site](Assets/inter-agile-issue.gif)</a>
 
+<br>
 • A regular mouse hover will still flip a card without clicking.
 
 • With `:focus` now in place, Agile 101 is now keyboard accessible.
