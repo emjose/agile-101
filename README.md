@@ -96,6 +96,7 @@ Flip cards explain the 4 values and 12 principles of the Agile Manifesto.
 <a href="https://agile-101.vercel.app/">![Live Site](Assets/inter-agile-issue.gif)</a>
 
 <br>
+
 • A regular mouse hover will still flip a card without clicking.
 
 • With `:focus` now in place, Agile 101 is now keyboard accessible.
