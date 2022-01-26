@@ -57,13 +57,13 @@ header:focus h1 {
 	margin-top: 10px;
 }
 
-#scrum {
+#header-link {
 	color: #009fe2;
 	transition: all 0.4s ease-in-out;
 }
 
-#scrum:hover,
-#scrum:focus {
+#header-link:hover,
+#header-link:focus {
 	color: rgb(88, 79, 68);
 	text-decoration: underline;
 }
