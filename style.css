@@ -53,6 +53,12 @@ header:focus h1 {
 	color: #0182b9;
 }
 
+header:hover .github-corner svg path,
+header:focus .github-corner svg path {
+	color: rgb(255, 239, 221);
+	transition: all 0.3s ease-in-out;
+}
+
 #expand {
 	margin-top: 10px;
 }
