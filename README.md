@@ -79,7 +79,7 @@ Flip cards explain the 4 values and 12 principles of the Agile Manifesto.
 
 <p id="issues"><p>
 
-<a href="https://agile-101.vercel.app/">![Issues](Assets/inter-issues.png)</a>
+<a href=#issues>![Issues](Assets/inter-issues.png)</a>
 
 -   After deploying Agile 101 on <a href="https://vercel.com">Vercel</a>, I discovered that the cards didn't flip correctly on a mobile phone.
 
