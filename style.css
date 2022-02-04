@@ -62,8 +62,8 @@ header:focus .github-corner svg path {
 #myBtn {
 	display: none;
 	position: fixed;
-	height: 50px;
-	width: 50px;
+	height: 46px;
+	width: 46px;
 	bottom: 15px;
 	right: 15px;
 	z-index: 99;
@@ -71,7 +71,7 @@ header:focus .github-corner svg path {
 	border: none;
 	outline: none;
 	background-color: #c7eeff;
-	color: #06709ece;
+	color: #0b84b8b7;
 	cursor: pointer;
 	text-align: center;
 	border-radius: 50%;
@@ -292,5 +292,12 @@ p {
 
 	.card-container {
 		margin-top: 125px;
+	}
+}
+
+@media (max-width: 500px) {
+	#myBtn {
+		bottom: 8px;
+		right: 8px;
 	}
 }
