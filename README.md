@@ -45,6 +45,8 @@
 
 -   As a personal study guide, I created flip cards of the 4 values and 12 principles of the Agile Manifesto.
 
+-   Companion project to Agile 101: <a href="https://github.com/emjose/design-patterns-101/#header">Design Patterns 101</a>.
+
 -   The graphics and material are from <a href="https://www.scrumalliance.org/agile-organizations/manifesto">Scrum Alliance</a> and <a href="https://selleo.com/blog/agile-values-and-principles-do-they-still-matter">Selleo</a>. Images formatted with Adobe Photoshop.
 
 #
