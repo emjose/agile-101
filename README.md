@@ -49,6 +49,8 @@
 
 -   The graphics and material are from <a href="https://www.scrumalliance.org/agile-organizations/manifesto">Scrum Alliance</a> and <a href="https://selleo.com/blog/agile-values-and-principles-do-they-still-matter">Selleo</a>. Images formatted with Adobe Photoshop.
 
+-   **This app is best viewed on a desktop computer or a laptop, using a Chrome, Firefox, or Edge browser.**
+
 #
 
 <p id="installation"><p>
@@ -82,6 +84,8 @@ Flip cards explain the 4 values and 12 principles of the Agile Manifesto.
 <p id="issues"><p>
 
 <a href=#issues>![Issues](Assets/inter-issues.png)</a>
+
+-   **This app is best viewed on a desktop computer or a laptop, using a Chrome, Firefox, or Edge browser.**
 
 -   After deploying Agile 101 on <a href="https://vercel.com">Vercel</a>, I discovered that the cards didn't flip correctly on a mobile phone.
 
